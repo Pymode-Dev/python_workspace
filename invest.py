@@ -13,7 +13,7 @@ print(f'starting amount = ${starting_amount:,.2f}, percentage = {rate_input}, ye
 
 
 def invest(start_amount, rate, year):
-    for i in range(0, year):   # between the range of 1 n-year
+    for i in range(0, year):   # between the range of 1 to n-year
         initial = start_amount * (rate / 100)   # it calculates the profit rate
         start_amount += initial  # it adds the profit rate to the starting amount
         i += 1
