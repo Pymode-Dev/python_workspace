@@ -1,0 +1,7 @@
+user = input('enter some text: ')
+user = user.replace('e', '3')
+user = user.replace('i', '1')
+user = user.replace('o', '0')
+user = user.replace('s', '5')
+user = user.replace('t', '7')
+print(user)
