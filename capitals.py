@@ -33,7 +33,4 @@ while True:
         print(f"The capital of {RANDOM_QUESTION} is --> \
               {CAPITALS_DICT[RANDOM_QUESTION]}")
         break
-    else:
-        print("Incorrect answer, try again!!!")
-
       
